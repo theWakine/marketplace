@@ -1,0 +1,100 @@
+[
+    {
+      "id": 1,
+      "name": "Шорты AIRON оверсайз",
+      "price": 1185,
+      "image": "https://ir.ozone.ru/s3/multimedia-1-q/wc1000/7211398382.jpg ",
+      "sale": 0.11
+    },
+    {
+        "id": 2,
+        "name": "Футболка Оверсайз",
+        "price": 898,
+        "image": "https://ir.ozone.ru/s3/multimedia-1-k/wc1000/7447981160.jpg",
+        "sale": 0
+      },
+      {
+        "id": 3,
+        "name": "Мое солнышко Крем детский солнцезащитный SPF 50+, 55 мл",
+        "price": 176,
+        "image": "https://ir.ozone.ru/s3/multimedia-1-e/wc1000/7406011814.jpg",
+        "sale": 0.23
+      },
+      {
+        "id": 4,
+        "name": "Uni-Eagle cоус (Шрирача/Shriracha Hot Chilli Sauce) (0,475кг/430мл) пласт. бут. (Тайланд)",
+        "price": 516,
+        "image": "https://ir.ozone.ru/s3/multimedia-e/wc1000/6755668286.jpg",
+        "sale": 0
+      },
+      {
+        "id": 5,
+        "name": "Комплект носков Nike, 5 пар",
+        "price": 583,
+        "image": "https://ir.ozone.ru/s3/multimedia-1-6/wc1000/7456586118.jpg",
+        "sale": 0.08
+      },
+      {
+        "id": 6,
+        "name": "Шейкер для протеина, SKILLS",
+        "price": 467,
+        "image": "https://ir.ozone.ru/s3/multimedia-1-x/wc1000/7367280477.jpg",
+        "sale": 0.53
+      },
+      {
+        "id": 7,
+        "name": "Бейсболка HATSY Унисекс",
+        "price": 395,
+        "image": "https://ir.ozone.ru/s3/multimedia-1-0/wc1000/7322874912.jpg",
+        "sale": 0.15
+      },
+      {
+        "id": 8,
+        "name": "Подставка держатель для мобильного телефона смартфона планшета на стол. Удача",
+        "price": 72,
+        "image": "https://ir.ozone.ru/s3/multimedia-1-f/wc1000/7280706399.jpg",
+        "sale": 0.02
+      },
+      {
+        "id": 9,
+        "name": "Двусторонняя прозрачная клейкая лента универсальная / многоразовая акриловая / размер 1м-3см-1мм",
+        "price": 109,
+        "image": "https://ir.ozone.ru/s3/multimedia-1-z/wc1000/7542966815.jpg",
+        "sale": 0.1
+      },
+      {
+        "id": 10,
+        "name": "Панама A-Store",
+        "price": 398,
+        "image": "https://ir.ozone.ru/s3/multimedia-1-f/wc1000/6921920103.jpg",
+        "sale": 0
+      },
+      {
+        "id": 11,
+        "name": "Рубанок Для Рыбной Чешуи С Крышкой Инструмент Для Убийства Рыбы",
+        "price": 109,
+        "image": "https://ir.ozone.ru/s3/multimedia-1-4/wc1000/7318172380.jpg",
+        "sale": 0
+      },
+      {
+        "id": 12,
+        "name": "2D акриловые Подвеска Обезьянка,подходят для автомобилей, сумок, ключей и т. д.",
+        "price": 90,
+        "image": "https://ir.ozone.ru/s3/multimedia-1-y/wc1000/7467861454.jpg",
+        "sale": 0.19
+      },
+      {
+        "id": 13,
+        "name": "Маркер строительный тонкий разметочный с длинным наконечником / 5 шт (черный, красный, зеленый, синий, белый) / Маркеры строительные набор для разметки по металлу, дереву, стеклу, ткани.",
+        "price": 197,
+        "image": "https://ir.ozone.ru/s3/multimedia-1-s/wc1000/7111703368.jpg",
+        "sale": 0.15
+      },
+      {
+        "id": 14,
+        "name": "Шорты adidas Originals Tricolor Short2",
+        "price": 1183,
+        "image": "https://ir.ozone.ru/s3/multimedia-1-r/wc1000/7152676215.jpg",
+        "sale": 0
+      }
+]

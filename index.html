@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MyShop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="logo">Витрина24</div>
+      
+        <!-- Бургер -->
+        <button id="menu-toggle" class="menu-toggle">&#9776;</button>
+      
+        <!-- Навигация -->
+        <nav class="main-nav">
+          <ul>
+            <li><a href="./index.html">Главная</a></li>
+            <li><a href="./about.html">О нас</a></li>
+          </ul>
+      
+          <div class="search-container">
+            <input type="text" id="search-input" placeholder="Поиск товаров..." />
+          </div>
+        </nav>
+      
+        <!-- Корзина -->
+        <a href="#" id="cart-icon" class="cart-link">🛒 Корзина (<span id="cart-count">0</span>)</a>
+    </header>
+
+  <div id="notification-container"></div>
+
+  <!-- Всплывающая корзина -->
+  <aside id="cart-modal" class="cart-modal hidden">
+    <span class="close-cart" id="close-cart">×</span>
+    <h2>Корзина</h2>
+    <div id="cart-items" class="cart-items-list"></div>
+    <div class="cart-total">
+    </div>
+    <div class="hidden" id="cart-buttons">
+        <strong>Итого:</strong> <span id="cart-total">0</span> ₽
+        <button class="cart-btn clear" id="cart-clear" onclick="clearCart()">Очистить корзину</button>
+        <button class="cart-btn checkout" id="buying" onclick="openCheckoutModal()">Перейти к оформлению</button>
+    </div>
+  </aside>
+
+  <!-- Модальное окно оформления заказа -->
+<div id="checkout-modal" class="modal hidden">
+    <div class="modal-content">
+      <span id="close-modal" class="close-btn">&times;</span>
+      <h2>Оформление заказа</h2>
+  
+      <!-- Отображение товаров и суммы -->
+      <div id="cart-summary"></div>
+  
+      <!-- Форма оформления -->
+      <form id="checkout-form">
+        <label for="fullname">ФИО получателя:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Иванов Иван Иванович" required />
+  
+        <button type="submit">Оплатить</button>
+      </form>
+  
+      <!-- Сообщение о подтверждении заказа -->
+      <div id="confirmation" class="hidden">
+        <p><strong>Спасибо за покупку!</strong></p>
+        <p>Ваш заказ успешно оформлен.</p>
+  
+        <!-- Блок с трек-номером -->
+        <div class="track hidden" id="track">
+          <p class="track-number-text">Трек-номер:</p>
+          <p class="track-number" id="track-number"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <section id="products" class="product-list"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
