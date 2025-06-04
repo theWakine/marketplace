@@ -605,7 +605,7 @@ li {
 .news .badge {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 0.5rem;
   padding: 0.5rem;
 }
 
@@ -613,6 +613,7 @@ li {
   position: relative;
   transition: all 0.5s ease;
   z-index: 1;
+  gap: 0.25rem;
 }
 
 .news .badge div:hover {

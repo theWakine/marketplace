@@ -56,7 +56,7 @@ function renderProducts(productList) {
     const hasSale = product.sale > 0;
     const saleBadge = hasSale ? `<span class="sale">${product.sale * 100}%</span>` : '';
     const oldPrice = hasSale
-      ? `<p class="product-price-old"><s>${(product.price * (1 + product.sale)).toFixed(0)} ₽</s></p>`
+      ? `<p class="product-price-old"><s>${Math.round(product.price)} ₽</s></p>`
       : '';
 
     card.innerHTML = `
@@ -66,7 +66,7 @@ function renderProducts(productList) {
       <div class="product-info">
         <div class="product-prices">
           <div>
-            <p class="product-price">${product.price} ₽</p>
+            <p class="product-price">${Math.round(product.price - (product.price * product.sale))} ₽</p>
             ${saleBadge}
           </div>
           ${oldPrice}
