@@ -1,100 +1,298 @@
 [
-    {
-      "id": 1,
-      "name": "Шорты AIRON оверсайз",
-      "price": 1185,
-      "image": "https://ir.ozone.ru/s3/multimedia-1-q/wc1000/7211398382.jpg ",
-      "sale": 0.11
-    },
-    {
-        "id": 2,
-        "name": "Футболка Оверсайз",
-        "price": 898,
-        "image": "https://ir.ozone.ru/s3/multimedia-1-k/wc1000/7447981160.jpg",
-        "sale": 0
-      },
-      {
-        "id": 3,
-        "name": "Мое солнышко Крем детский солнцезащитный SPF 50+, 55 мл",
-        "price": 176,
-        "image": "https://ir.ozone.ru/s3/multimedia-1-e/wc1000/7406011814.jpg",
-        "sale": 0.23
-      },
-      {
-        "id": 4,
-        "name": "Uni-Eagle cоус (Шрирача/Shriracha Hot Chilli Sauce) (0,475кг/430мл) пласт. бут. (Тайланд)",
-        "price": 516,
-        "image": "https://ir.ozone.ru/s3/multimedia-e/wc1000/6755668286.jpg",
-        "sale": 0
-      },
-      {
-        "id": 5,
-        "name": "Комплект носков Nike, 5 пар",
-        "price": 583,
-        "image": "https://ir.ozone.ru/s3/multimedia-1-6/wc1000/7456586118.jpg",
-        "sale": 0.08
-      },
-      {
-        "id": 6,
-        "name": "Шейкер для протеина, SKILLS",
-        "price": 467,
-        "image": "https://ir.ozone.ru/s3/multimedia-1-x/wc1000/7367280477.jpg",
-        "sale": 0.53
-      },
-      {
-        "id": 7,
-        "name": "Бейсболка HATSY Унисекс",
-        "price": 395,
-        "image": "https://ir.ozone.ru/s3/multimedia-1-0/wc1000/7322874912.jpg",
-        "sale": 0.15
-      },
-      {
-        "id": 8,
-        "name": "Подставка держатель для мобильного телефона смартфона планшета на стол. Удача",
-        "price": 72,
-        "image": "https://ir.ozone.ru/s3/multimedia-1-f/wc1000/7280706399.jpg",
-        "sale": 0.02
-      },
-      {
-        "id": 9,
-        "name": "Двусторонняя прозрачная клейкая лента универсальная / многоразовая акриловая / размер 1м-3см-1мм",
-        "price": 109,
-        "image": "https://ir.ozone.ru/s3/multimedia-1-z/wc1000/7542966815.jpg",
-        "sale": 0.1
-      },
-      {
-        "id": 10,
-        "name": "Панама A-Store",
-        "price": 398,
-        "image": "https://ir.ozone.ru/s3/multimedia-1-f/wc1000/6921920103.jpg",
-        "sale": 0
-      },
-      {
-        "id": 11,
-        "name": "Рубанок Для Рыбной Чешуи С Крышкой Инструмент Для Убийства Рыбы",
-        "price": 109,
-        "image": "https://ir.ozone.ru/s3/multimedia-1-4/wc1000/7318172380.jpg",
-        "sale": 0
-      },
-      {
-        "id": 12,
-        "name": "2D акриловые Подвеска Обезьянка,подходят для автомобилей, сумок, ключей и т. д.",
-        "price": 90,
-        "image": "https://ir.ozone.ru/s3/multimedia-1-y/wc1000/7467861454.jpg",
-        "sale": 0.19
-      },
-      {
-        "id": 13,
-        "name": "Маркер строительный тонкий разметочный с длинным наконечником / 5 шт (черный, красный, зеленый, синий, белый) / Маркеры строительные набор для разметки по металлу, дереву, стеклу, ткани.",
-        "price": 197,
-        "image": "https://ir.ozone.ru/s3/multimedia-1-s/wc1000/7111703368.jpg",
-        "sale": 0.15
-      },
-      {
-        "id": 14,
-        "name": "Шорты adidas Originals Tricolor Short2",
-        "price": 1183,
-        "image": "https://ir.ozone.ru/s3/multimedia-1-r/wc1000/7152676215.jpg",
-        "sale": 0
-      }
+  {
+    "id": 0,
+    "name": "Футболка Свободный стиль Оверсайз",
+    "price": 4500,
+    "image": "https://ir.ozone.ru/s3/multimedia-0/wc1000/6890526360.jpg",
+    "sale": 0.77,
+    "category": "clothing"
+  },
+  {
+    "id": 1,
+    "name": "Футболка Print&Pictures",
+    "price": 1490,
+    "image": "https://ir.ozone.ru/s3/multimedia-3/wc1000/6734996967.jpg",
+    "sale": 0.61,
+    "category": "clothing"
+  },
+  {
+    "id": 2,
+    "name": "Шорты ТВОЕ",
+    "price": 1799,
+    "image": "https://ir.ozone.ru/s3/multimedia-c/wc1000/6030589248.jpg",
+    "sale": 0.64,
+    "category": "clothing"
+  },
+  {
+    "id": 3,
+    "name": "Носки XXOMA носки 8, 8 пар",
+    "price": 2999,
+    "image": "https://ir.ozone.ru/s3/multimedia-1-c/wc1000/7539246480.jpg",
+    "sale": 0.89,
+    "category": "clothing"
+  },
+  {
+    "id": 4,
+    "name": "Носки Алйша Клаccик",
+    "price": 1800,
+    "image": "https://ir.ozone.ru/s3/multimedia-1-p/wc1000/7581166945.jpg",
+    "sale": 0.69,
+    "category": "clothing"
+  },
+  {
+    "id": 5,
+    "name": "Футболка Jorka",
+    "price": 2200,
+    "image": "https://ir.ozone.ru/s3/multimedia-1-t/wc1000/7038049277.jpg",
+    "sale": 0.72,
+    "category": "clothing"
+  },
+  {
+    "id": 6,
+    "name": "Водолазка Envy Lab",
+    "price": 3605,
+    "image": "https://ir.ozone.ru/s3/multimedia-1-f/wc1000/7364636079.jpg",
+    "sale": 0.68,
+    "category": "clothing"
+  },
+  {
+    "id": 7,
+    "name": "Брюки Maner's",
+    "price": 8990,
+    "image": "https://ir.ozone.ru/s3/multimedia-1-f/wc1000/7510606755.jpg",
+    "sale": 0.67,
+    "category": "clothing"
+  },
+  {
+    "id": 8,
+    "name": "Свитер CHU & CHU С горлом",
+    "price": 2699,
+    "image": "https://ir.ozone.ru/s3/multimedia-1-g/wc1000/7275600880.jpg",
+    "sale": 0.84,
+    "category": "clothing"
+  },
+  {
+    "id": 9,
+    "name": "Футболка Апрель",
+    "price": 1580,
+    "image": "https://ir.ozone.ru/s3/multimedia-1-7/wc1000/7299963043.jpg",
+    "sale": 0.74,
+    "category": "clothing"
+  },
+  {
+    "id": 9,
+    "name": "Футболка 100% ХЛОПОК",
+    "price": 5000,
+    "image": "https://ir.ozone.ru/s3/multimedia-1-r/wc1000/7501147371.jpg",
+    "sale": 0.9,
+    "category": "clothing"
+  },
+  {
+    "id": 10,
+    "name": "Кроп-топ SIELUNI",
+    "price": 3999,
+    "image": "https://ir.ozone.ru/s3/multimedia-1-b/wc1000/7165065827.jpg",
+    "sale": 0.84,
+    "category": "clothing"
+  },
+  {
+    "id": 11,
+    "name": "Юбка SYJWY",
+    "price": 1189,
+    "image": "https://ir.ozone.ru/s3/multimedia-e/wc1000/6585909890.jpg",
+    "sale": 0.53,
+    "category": "clothing"
+  },
+  {
+    "id": 12,
+    "name": "Кулер для телефона охлаждение смартфона для игр pubg, портативный вентилятор",
+    "price": 3600,
+    "image": "https://ir.ozone.ru/s3/multimedia-1-y/wc1000/7589370058.jpg",
+    "sale": 0.84,
+    "category": "electronics"
+  },
+  {
+    "id": 13,
+    "name": "Беспроводное зарядное устройство / GQbox / Док станция 3в1 для iPhone / Быстрая зарядка / Белый",
+    "price": 10000,
+    "image": "https://ir.ozone.ru/s3/multimedia-1-o/wc1000/7505273004.jpg",
+    "sale": 0.76,
+    "category": "electronics"
+  },
+  {
+    "id": 14,
+    "name": "Wi‑Fi роутер TP-Link Archer AX12",
+    "price": 4499,
+    "image": "https://ir.ozone.ru/s3/multimedia-1-7/wc1000/7139398855.jpg",
+    "sale": 0.35,
+    "category": "electronics"
+  },
+  {
+    "id": 15,
+    "name": "Держатель магнитный для проводов самоклеящийся набор из 6 шт,черная",
+    "price": 1300,
+    "image": "https://ir.ozone.ru/s3/multimedia-1-2/wc1000/7252862438.jpg",
+    "sale": 0.83,
+    "category": "electronics"
+  },
+  {
+    "id": 16,
+    "name": "Кабель usb type c / GQbox / Быстрая зарядка для телефона type c провод шнур для Android и iPhone 15-16 / 1 метр",
+    "price": 874,
+    "image": "https://ir.ozone.ru/s3/multimedia-1-5/wc1000/7264519853.jpg",
+    "sale": 0.65,
+    "category": "electronics"
+  },
+  {
+    "id": 16,
+    "name": "Органайзер для проводов, зарядок и кабелей, держатель для проводов самоклеящийся, черный, 5 отверстий",
+    "price": 4000,
+    "image": "https://ir.ozone.ru/s3/multimedia-1-d/wc1000/7285097065.jpg",
+    "sale": 0.95,
+    "category": "electronics"
+  },
+  {
+    "id": 17,
+    "name": "WiFi адаптер для компьютера, Тв приставки, для ПК: чипсет МT7601, USB с антенной",
+    "price": 907,
+    "image": "https://ir.ozone.ru/s3/multimedia-p/wc1000/6772188661.jpg",
+    "sale": 0.67,
+    "category": "electronics"
+  },
+  {
+    "id": 18,
+    "name": "Зарядное устройство для автомобиля / Зapядкa / В прикуриватель, Аксессуары для машины, Черный",
+    "price": 1402,
+    "image": "https://ir.ozone.ru/s3/multimedia-1-e/wc1000/7404692558.jpg",
+    "sale": 0.69,
+    "category": "electronics"
+  },
+  {
+    "id": 19,
+    "name": "Шторка для вебкамеры 3 штуки, черный",
+    "price": 1555,
+    "image": "https://ir.ozone.ru/s3/multimedia-1-i/wc1000/7309957050.jpg",
+    "sale": 0.93,
+    "category": "electronics"
+  },
+  {
+    "id": 20,
+    "name": "Надежный кронштейн для телевизора настенный 19-49 дюймов диагональ наклонный",
+    "price": 1890,
+    "image": "https://ir.ozone.ru/s3/multimedia-1-3/wc1000/7369957515.jpg",
+    "sale": 0.66,
+    "category": "electronics"
+  },
+  {
+    "id": 21,
+    "name": "Подставка для телефона (смартфона) и планшета, черная",
+    "price": 494,
+    "image": "https://ir.ozone.ru/s3/multimedia-1-y/wc1000/7423730386.jpg",
+    "sale": 0.72,
+    "category": "electronics"
+  },
+  {
+    "id": 21,
+    "name": "Автомобильный Bluetooth AUX/ Адаптер Bluetooth / Универсальный, 3.5 мм",
+    "price": 990,
+    "image": "https://ir.ozone.ru/s3/multimedia-1-j/wc1000/7378483159.jpg",
+    "sale": 0.59,
+    "category": "electronics"
+  },
+  {
+    "id": 22,
+    "name": "ФИНН Набор для уборки",
+    "price": 4500,
+    "image": "https://ir.ozone.ru/s3/multimedia-1-m/wc1000/7416881374.jpg",
+    "sale": 0.69,
+    "category": "house"
+  },
+  {
+    "id": 23,
+    "name": "2 многофункциональных скребка, 3 щетки для удаления сухого и обугленного загрязнения, 2 для очистки газовых плит, окон, плиток, комплектов для уборки дома.",
+    "price": 888,
+    "image": "https://ir.ozone.ru/s3/multimedia-1-u/wc1000/7269761154.jpg",
+    "sale": 0.8,
+    "category": "house"
+  },
+  {
+    "id": 23,
+    "name": "Мешки для мусора 35л с завязками мусорные пакеты 100шт",
+    "price": 1200,
+    "image": "https://ir.ozone.ru/s3/multimedia-8/wc1000/6821389520.jpg",
+    "sale": 0.66,
+    "category": "house"
+  },
+  {
+    "id": 24,
+    "name": "Садовый секатор с тонкими лезвиями ножницы для цветов орхидей FRUT",
+    "price": 389,
+    "image": "https://ir.ozone.ru/s3/multimedia-1-z/wc1000/6964899371.jpg",
+    "sale": 0.44,
+    "category": "house"
+  },
+  {
+    "id": 25,
+    "name": "Скребок с 11 лезвиями для стеклокерамики, стекла, для уборки аквариума, окон, кафеля, строительный, малярный",
+    "price": 1200,
+    "image": "https://ir.ozone.ru/s3/multimedia-1-a/wc1000/7042943746.jpg",
+    "sale": 0.86,
+    "category": "house"
+  },
+  {
+    "id": 26,
+    "name": "Скребок с 11 лезвиями для стеклокерамики, стекла, для уборки аквариума, окон, кафеля, строительный, малярный",
+    "price": 499,
+    "image": "https://ir.ozone.ru/s3/multimedia-1-6/wc1000/7585759122.jpg",
+    "sale": 0.88,
+    "category": "house"
+  },
+  {
+    "id": 27,
+    "name": "Наматрасник водонепроницаемый 160х200 см. с бортом сеткой 28 см. GALTEX",
+    "price": 2491,
+    "image": "https://ir.ozone.ru/s3/multimedia-1-6/wc1000/7585759122.jpg",
+    "sale": 0.68,
+    "category": "house"
+  },
+  {
+    "id": 28,
+    "name": "Подушка 70х70 2шт GALTEX",
+    "price": 2860,
+    "image": "https://ir.ozone.ru/s3/multimedia-1-r/wc1000/7357039155.jpg",
+    "sale": 0.67,
+    "category": "house"
+  },
+  {
+    "id": 29,
+    "name": "Термометр комнатный, гигрометр комнатный, датчик температуры и влажности",
+    "price": 1700,
+    "image": "https://ir.ozone.ru/s3/multimedia-1-2/wc1000/7352202818.jpg",
+    "sale": 0.89,
+    "category": "house"
+  },
+  {
+    "id": 30,
+    "name": "Семена Кукуруза сахарная Лакомка 25г Сембат",
+    "price": 500,
+    "image": "https://ir.ozone.ru/s3/multimedia-l/wc1000/6243216273.jpg",
+    "sale": 0.8,
+    "category": "house"
+  },
+  {
+    "id": 31,
+    "name": "Отпугиватель мышей ультразвуковой, 1 шт",
+    "price": 1600,
+    "image": "https://ir.ozone.ru/s3/multimedia-1-t/wc1000/7280558921.jpg",
+    "sale": 0.74,
+    "category": "house"
+  },
+  {
+    "id": 32,
+    "name": "20 SMD LED Уличный светодиодный фонарь на солнечной батареи, мощный аккумуляторный светильник с датчиком движения, водонепроницаемый прожектор освещения на стену дома",
+    "price": 799,
+    "image": "https://ir.ozone.ru/s3/multimedia-t/wc1000/6042153689.jpg",
+    "sale": 0.69,
+    "category": "house"
+  }
 ]

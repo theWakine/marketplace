@@ -8,9 +8,39 @@ async function loadProducts() {
     if (!response.ok) throw new Error('Не удалось загрузить товары');
     products = await response.json();
     renderProducts(products);
+    setupCategoryFilters(); // Инициализируем фильтры после загрузки
   } catch (e) {
     document.getElementById("products").innerHTML = `<p style="color:red">${e.message}</p>`;
   }
+}
+
+// Добавьте эту функцию в ваш script.js
+function setupCategoryFilters() {
+  const filterButtons = document.querySelectorAll('.filter-btn');
+
+  filterButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      // Удаляем активный класс у всех кнопок
+      filterButtons.forEach(btn => btn.classList.remove('active'));
+      // Добавляем активный класс текущей кнопке
+      button.classList.add('active');
+
+      const category = button.dataset.category;
+      filterProductsByCategory(category);
+    });
+  });
+}
+
+function filterProductsByCategory(category) {
+  if (category === 'all') {
+    renderProducts(products);
+    return;
+  }
+
+  const filtered = products.filter(product =>
+    product.category === category
+  );
+  renderProducts(filtered);
 }
 
 // Отображение товаров
@@ -25,8 +55,8 @@ function renderProducts(productList) {
     // Проверяем sale и формируем HTML частично
     const hasSale = product.sale > 0;
     const saleBadge = hasSale ? `<span class="sale">${product.sale * 100}%</span>` : '';
-    const oldPrice = hasSale 
-      ? `<p class="product-price-old"><s>${(product.price * (1 + product.sale)).toFixed(0)} ₽</s></p>` 
+    const oldPrice = hasSale
+      ? `<p class="product-price-old"><s>${(product.price * (1 + product.sale)).toFixed(0)} ₽</s></p>`
       : '';
 
     card.innerHTML = `
@@ -64,7 +94,7 @@ function addToCart(product) {
   showToast("Выбранный товар был добавлен в корзину!", "success")
 
   document.getElementById("cart-buttons").classList.remove("hidden")
-} 
+}
 
 // Обновление корзины
 function updateCart() {
@@ -165,7 +195,7 @@ function openCheckoutModal() {
       </li>
       </div>`;
   });
-  
+
   let order = null
   let delivery = 0
 
@@ -197,8 +227,8 @@ document.getElementById("close-modal").addEventListener("click", () => {
 function generateTrackNumber() {
   const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
   const prefix = letters.charAt(Math.floor(Math.random() * letters.length)) +
-                 letters.charAt(Math.floor(Math.random() * letters.length)) +
-                 letters.charAt(Math.floor(Math.random() * letters.length));
+    letters.charAt(Math.floor(Math.random() * letters.length)) +
+    letters.charAt(Math.floor(Math.random() * letters.length));
   const number = Math.floor(100000 + Math.random() * 900000);
   trackNumber = `${prefix}-${number}`
   showToast(`Товар оформлен, трек номер заказа ${trackNumber}`, "success")
